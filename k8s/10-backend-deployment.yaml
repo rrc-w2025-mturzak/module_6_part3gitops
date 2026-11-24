@@ -19,7 +19,7 @@ spec:
         - name: ghcr-creds
       containers:
         - name: backend
-          image: ghcr.io/rrc-w2025-mturzak/module_6_part3-backend:latest
+          image: ghcr.io/rrc-w2025-mturzak/module_6_part3_main-backend:d36a3769a840680f946a5400d19eedc91fe32364
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
